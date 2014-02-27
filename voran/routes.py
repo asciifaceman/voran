@@ -1,4 +1,4 @@
-from flask imoprt Flask
+from flask import Flask
 
 @app.route("/")
 def hello():
