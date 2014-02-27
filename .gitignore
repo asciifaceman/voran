@@ -1,0 +1,5 @@
+# Ignore OSX
+.DS_Store
+
+# Ignore venv, make your own!
+venv/
