@@ -19,7 +19,7 @@ def test():
 		for line in iter(proc.stdout.readline, ''):
 			time.sleep(1)
 			yield line.rstrip() + '<br/>\n'
-	return flask.Response(inner(), minetype='text/html')
+	return Response(inner(), minetype='text/html')
 
 
 
